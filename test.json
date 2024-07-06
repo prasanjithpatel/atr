@@ -1,0 +1,27 @@
+{
+    data: [
+        {
+            day_candle: {
+                timestamp : 
+                        open:
+                        close:
+                        high:
+                        low:
+            },
+            next_day_candles:{
+                candles : [
+                    {
+                        timestamp : 
+                        open:
+                        close:
+                        high:
+                        low:
+                    },{},{}
+                ]
+            }
+        },
+        {
+
+        }
+    ]
+}
