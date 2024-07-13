@@ -4,8 +4,8 @@ import pandas as pd
 base_directory = "/home/prasanjith/Desktop/atr/"
 exceptions = []
 
-#Forex = [folder for folder in os.listdir(base_directory) if os.path.isdir(os.path.join(base_directory, folder))]
-Forex = ["AUDCAD", "AUDUSD", "EURJPY", "GBPJPY", "GBPUSD", "USDJPY"]
+Forex = [folder for folder in os.listdir(base_directory) if os.path.isdir(os.path.join(base_directory, folder))]
+#Forex = ["AUDCAD", "AUDUSD", "EURJPY", "GBPJPY", "GBPUSD", "USDJPY"]
 exceptions = []
 processed_file = "/home/prasanjith/Desktop/atr/processed.txt"
 
@@ -39,8 +39,8 @@ for i in Forex:
             read2 = pd.read_csv(file2)
 
             # Save the JSON files in the same path as Folder_path
-            json_file1 = Folder_path + str(i) + "1D" + '.json'
-            json_file2 = Folder_path + str(i) + "60" + '.json'
+            json_file1 = Folder_path + "one_day"+ '.json'
+            json_file2 = Folder_path + "hour_day"+ '.json'
             read1.to_json(json_file1, orient='records')
             read2.to_json(json_file2, orient='records')
 
