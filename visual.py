@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-Forex = ["AUDCAD", "AUDUSD", "EURJPY", "GBPJPY", "GBPUSD", "USDJPY"]
+Forex = ["AUDCAD", "AUDUSD", "EURJPY", "GBPJPY", "GBPUSD", "USDJPY","Gold","silver"]
 
 
 save_path = '/home/prasanjith/Desktop/atr/Results/result.png'
