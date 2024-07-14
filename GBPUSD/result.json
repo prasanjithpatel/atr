@@ -2,7 +2,7 @@
   {
     "algoConfig": {
       "basePath": "/Users/kmbl327929/IdeaProjects/personal/Data/atr/",
-      "pips": 1.2E-4,
+      "spread": 1.2E-4,
       "thresholdProfit": 5.0,
       "lastDays": 90,
       "hourlySuffix": "hour_day.json",
@@ -10,7 +10,1549 @@
       "token": "GBPUSD",
       "resultSuffix": "result.json",
       "lowerBound": 2,
-      "upperBound": 25
+      "upperBound": 7
+    },
+    "strategy": "EXECUTE_FIRST_WITH_BOUNDS",
+    "profit": -8.95483448181717,
+    "maxProfit": 43.4186093261172,
+    "days": 89,
+    "numProfitDays": 3,
+    "numNonProfitDays": 18,
+    "numNoTrades": 68,
+    "numIgnoredTrades": 0,
+    "profitDays": [
+      {
+        "time": 1710363600,
+        "open": 1.2797,
+        "close": 1.27535,
+        "high": 1.282295,
+        "low": 1.273065,
+        "volume": 0.0,
+        "profit": 5.0,
+        "maxProfit": 15.882352941197153,
+        "entry": 1.27307,
+        "exit": 0.0,
+        "stopLoss": 1.2729000000000001,
+        "tradeStatus": "PROFIT",
+        "remark": null,
+        "entryIndex": 5,
+        "day": "15032024"
+      },
+      {
+        "time": 1717362000,
+        "open": 1.2742,
+        "close": 1.280765,
+        "high": 1.280825,
+        "low": 1.26942,
+        "volume": 0.0,
+        "profit": 2.5079365079368325,
+        "maxProfit": 4.908730158730876,
+        "entry": 1.28061,
+        "exit": 0.0,
+        "stopLoss": 1.2818699999999998,
+        "tradeStatus": "PROFIT",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "04062024"
+      },
+      {
+        "time": 1719349200,
+        "open": 1.2686,
+        "close": 1.262125,
+        "high": 1.26936,
+        "low": 1.261565,
+        "volume": 0.0,
+        "profit": 0.583586626139971,
+        "maxProfit": 2.510638297872551,
+        "entry": 1.26283,
+        "exit": 0.0,
+        "stopLoss": 1.261185,
+        "tradeStatus": "PROFIT",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "27062024"
+      }
+    ],
+    "nonProfitDays": [
+      {
+        "time": 1710709200,
+        "open": 1.27347,
+        "close": 1.272925,
+        "high": 1.274685,
+        "low": 1.27179,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.6637168141592227,
+        "entry": 1.27184,
+        "exit": 0.0,
+        "stopLoss": 1.2712750000000002,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "19032024"
+      },
+      {
+        "time": 1712091600,
+        "open": 1.257765,
+        "close": 1.265235,
+        "high": 1.265595,
+        "low": 1.256265,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.8960000000002005,
+        "entry": 1.26515,
+        "exit": 0.0,
+        "stopLoss": 1.2657749999999999,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 2,
+        "day": "04042024"
+      },
+      {
+        "time": 1713387600,
+        "open": 1.245365,
+        "close": 1.24364,
+        "high": 1.24845,
+        "low": 1.24336,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.07500000000024451,
+        "entry": 1.24349,
+        "exit": 0.0,
+        "stopLoss": 1.24309,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 2,
+        "day": "19042024"
+      },
+      {
+        "time": 1713819600,
+        "open": 1.23494,
+        "close": 1.24494,
+        "high": 1.245865,
+        "low": 1.23319,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 3.299492385787597,
+        "entry": 1.24564,
+        "exit": 0.0,
+        "stopLoss": 1.2466249999999999,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 6,
+        "day": "24042024"
+      },
+      {
+        "time": 1714597200,
+        "open": 1.2527,
+        "close": 1.25341,
+        "high": 1.254465,
+        "low": 1.24719,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.12500000000052772,
+        "entry": 1.254385,
+        "exit": 0.0,
+        "stopLoss": 1.254665,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 3,
+        "day": "03052024"
+      },
+      {
+        "time": 1715029200,
+        "open": 1.25621,
+        "close": 1.25088,
+        "high": 1.25708,
+        "low": 1.25009,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.022222222222642418,
+        "entry": 1.25019,
+        "exit": 0.0,
+        "stopLoss": 1.24974,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 2,
+        "day": "08052024"
+      },
+      {
+        "time": 1715202000,
+        "open": 1.249775,
+        "close": 1.25239,
+        "high": 1.252705,
+        "low": 1.24461,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.832000000000479,
+        "entry": 1.252485,
+        "exit": 0.0,
+        "stopLoss": 1.25311,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 2,
+        "day": "10052024"
+      },
+      {
+        "time": 1716757200,
+        "open": 1.273745,
+        "close": 1.27697,
+        "high": 1.27777,
+        "low": 1.273385,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.27772,
+        "exit": 0.0,
+        "stopLoss": 1.2781699999999998,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "28052024"
+      },
+      {
+        "time": 1716843600,
+        "open": 1.27697,
+        "close": 1.27617,
+        "high": 1.280075,
+        "low": 1.27542,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.2792792792793946,
+        "entry": 1.27562,
+        "exit": 0.0,
+        "stopLoss": 1.2750650000000001,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "29052024"
+      },
+      {
+        "time": 1717534800,
+        "open": 1.277045,
+        "close": 1.278705,
+        "high": 1.27955,
+        "low": 1.275545,
+        "volume": 0.0,
+        "profit": -0.04635761589397292,
+        "maxProfit": 2.079470198675661,
+        "entry": 1.27953,
+        "exit": 0.0,
+        "stopLoss": 1.28104,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 7,
+        "day": "06062024"
+      },
+      {
+        "time": 1717707600,
+        "open": 1.279055,
+        "close": 1.2721,
+        "high": 1.28218,
+        "low": 1.271615,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.4420289855070472,
+        "entry": 1.27164,
+        "exit": 0.0,
+        "stopLoss": 1.27095,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 7,
+        "day": "10062024"
+      },
+      {
+        "time": 1717966800,
+        "open": 1.2721,
+        "close": 1.273065,
+        "high": 1.27374,
+        "low": 1.26879,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 3.2727272727281513,
+        "entry": 1.27349,
+        "exit": 0.0,
+        "stopLoss": 1.2740399999999998,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 7,
+        "day": "11062024"
+      },
+      {
+        "time": 1718571600,
+        "open": 1.26841,
+        "close": 1.270475,
+        "high": 1.27098,
+        "low": 1.2659,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.6467236467236683,
+        "entry": 1.269895,
+        "exit": 0.0,
+        "stopLoss": 1.27165,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "18062024"
+      },
+      {
+        "time": 1719522000,
+        "open": 1.26391,
+        "close": 1.264425,
+        "high": 1.26659,
+        "low": 1.261975,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.36094674556201567,
+        "entry": 1.26589,
+        "exit": 0.0,
+        "stopLoss": 1.266735,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "01072024"
+      },
+      {
+        "time": 1719781200,
+        "open": 1.264425,
+        "close": 1.26504,
+        "high": 1.271095,
+        "low": 1.26334,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.3437500000006786,
+        "entry": 1.26342,
+        "exit": 0.0,
+        "stopLoss": 1.2631000000000001,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 6,
+        "day": "02072024"
+      },
+      {
+        "time": 1719867600,
+        "open": 1.26504,
+        "close": 1.268525,
+        "high": 1.268785,
+        "low": 1.26155,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.26877,
+        "exit": 0.0,
+        "stopLoss": 1.269285,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 2,
+        "day": "03072024"
+      },
+      {
+        "time": 1720040400,
+        "open": 1.274145,
+        "close": 1.27601,
+        "high": 1.27677,
+        "low": 1.27413,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.3678160919541874,
+        "entry": 1.27654,
+        "exit": 0.0,
+        "stopLoss": 1.276975,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 4,
+        "day": "05072024"
+      },
+      {
+        "time": 1720126800,
+        "open": 1.27601,
+        "close": 1.28136,
+        "high": 1.28173,
+        "low": 1.275435,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 2.410714285714889,
+        "entry": 1.28145,
+        "exit": 0.0,
+        "stopLoss": 1.2820099999999999,
+        "tradeStatus": "LOSS",
+        "remark": null,
+        "entryIndex": 6,
+        "day": "08072024"
+      }
+    ],
+    "noTrades": [
+      {
+        "time": 1710104400,
+        "open": 1.28571,
+        "close": 1.281385,
+        "high": 1.2864,
+        "low": 1.279525,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.43146067415730505,
+        "entry": 1.279725,
+        "exit": 0.0,
+        "stopLoss": 1.2775,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 13,
+        "day": "12032024"
+      },
+      {
+        "time": 0,
+        "open": 1.281385,
+        "close": 1.279275,
+        "high": 1.282375,
+        "low": 1.274605,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "13032024"
+      },
+      {
+        "time": 1710277200,
+        "open": 1.279275,
+        "close": 1.2797,
+        "high": 1.28114,
+        "low": 1.27747,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.28073,
+        "exit": 0.0,
+        "stopLoss": 1.281815,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 11,
+        "day": "14032024"
+      },
+      {
+        "time": 1710450000,
+        "open": 1.27535,
+        "close": 1.27347,
+        "high": 1.27589,
+        "low": 1.272535,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.273245,
+        "exit": 0.0,
+        "stopLoss": 1.272115,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 18,
+        "day": "18032024"
+      },
+      {
+        "time": 0,
+        "open": 1.272925,
+        "close": 1.272175,
+        "high": 1.273305,
+        "low": 1.266775,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "20032024"
+      },
+      {
+        "time": 1710882000,
+        "open": 1.272175,
+        "close": 1.27854,
+        "high": 1.27872,
+        "low": 1.26844,
+        "volume": 0.0,
+        "profit": 5.0,
+        "maxProfit": 6.771573604061597,
+        "entry": 1.278505,
+        "exit": 0.0,
+        "stopLoss": 1.2804749999999998,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "21032024"
+      },
+      {
+        "time": 0,
+        "open": 1.27854,
+        "close": 1.26573,
+        "high": 1.280355,
+        "low": 1.265045,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "22032024"
+      },
+      {
+        "time": 0,
+        "open": 1.26573,
+        "close": 1.26013,
+        "high": 1.267525,
+        "low": 1.257525,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "25032024"
+      },
+      {
+        "time": 1711314000,
+        "open": 1.26013,
+        "close": 1.26365,
+        "high": 1.265245,
+        "low": 1.259185,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.9736842105262699,
+        "entry": 1.265075,
+        "exit": 0.0,
+        "stopLoss": 1.266025,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "26032024"
+      },
+      {
+        "time": 1711400400,
+        "open": 1.26365,
+        "close": 1.262765,
+        "high": 1.26681,
+        "low": 1.262195,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.3514739229025686,
+        "entry": 1.26297,
+        "exit": 0.0,
+        "stopLoss": 1.2607650000000001,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "27032024"
+      },
+      {
+        "time": 1711486800,
+        "open": 1.262765,
+        "close": 1.264055,
+        "high": 1.264115,
+        "low": 1.26056,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.26065,
+        "exit": 0.0,
+        "stopLoss": 1.2602250000000002,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 11,
+        "day": "28032024"
+      },
+      {
+        "time": 0,
+        "open": 1.264055,
+        "close": 1.262385,
+        "high": 1.265465,
+        "low": 1.258595,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "29032024"
+      },
+      {
+        "time": 1711659600,
+        "open": 1.262385,
+        "close": 1.26238,
+        "high": 1.264525,
+        "low": 1.261,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.0125000000009454,
+        "entry": 1.261175,
+        "exit": 0.0,
+        "stopLoss": 1.2607750000000002,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 13,
+        "day": "01042024"
+      },
+      {
+        "time": 1711918800,
+        "open": 1.26238,
+        "close": 1.25515,
+        "high": 1.264295,
+        "low": 1.253965,
+        "volume": 0.0,
+        "profit": 2.479452054794294,
+        "maxProfit": 2.575342465753212,
+        "entry": 1.25493,
+        "exit": 0.0,
+        "stopLoss": 1.253835,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 9,
+        "day": "02042024"
+      },
+      {
+        "time": 1712005200,
+        "open": 1.25515,
+        "close": 1.257765,
+        "high": 1.25787,
+        "low": 1.253955,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.9319727891156595,
+        "entry": 1.257525,
+        "exit": 0.0,
+        "stopLoss": 1.25826,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 1,
+        "day": "03042024"
+      },
+      {
+        "time": 1712178000,
+        "open": 1.265235,
+        "close": 1.26422,
+        "high": 1.26836,
+        "low": 1.26353,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.2983193277310386,
+        "entry": 1.2637,
+        "exit": 0.0,
+        "stopLoss": 1.26132,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 11,
+        "day": "05042024"
+      },
+      {
+        "time": 1712264400,
+        "open": 1.26422,
+        "close": 1.26375,
+        "high": 1.26487,
+        "low": 1.25742,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.8900000000003954,
+        "entry": 1.26461,
+        "exit": 0.0,
+        "stopLoss": 1.26511,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 16,
+        "day": "08042024"
+      },
+      {
+        "time": 1712523600,
+        "open": 1.26375,
+        "close": 1.265495,
+        "high": 1.26641,
+        "low": 1.261345,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.3973214285713596,
+        "entry": 1.26545,
+        "exit": 0.0,
+        "stopLoss": 1.26657,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 9,
+        "day": "09042024"
+      },
+      {
+        "time": 0,
+        "open": 1.265495,
+        "close": 1.26778,
+        "high": 1.270945,
+        "low": 1.264885,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "10042024"
+      },
+      {
+        "time": 1712696400,
+        "open": 1.26778,
+        "close": 1.25402,
+        "high": 1.27083,
+        "low": 1.25203,
+        "volume": 0.0,
+        "profit": 0.7034068136273072,
+        "maxProfit": 1.136272545090236,
+        "entry": 1.253455,
+        "exit": 0.0,
+        "stopLoss": 1.25096,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 18,
+        "day": "11042024"
+      },
+      {
+        "time": 1712782800,
+        "open": 1.25402,
+        "close": 1.25533,
+        "high": 1.25786,
+        "low": 1.25108,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.1279461279461534,
+        "entry": 1.25194,
+        "exit": 0.0,
+        "stopLoss": 1.250455,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "12042024"
+      },
+      {
+        "time": 0,
+        "open": 1.25533,
+        "close": 1.24492,
+        "high": 1.25589,
+        "low": 1.24267,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "15042024"
+      },
+      {
+        "time": 1713128400,
+        "open": 1.24492,
+        "close": 1.244615,
+        "high": 1.24986,
+        "low": 1.243595,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.6213017751478771,
+        "entry": 1.24364,
+        "exit": 0.0,
+        "stopLoss": 1.24195,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 8,
+        "day": "16042024"
+      },
+      {
+        "time": 1713214800,
+        "open": 1.244615,
+        "close": 1.24263,
+        "high": 1.247195,
+        "low": 1.240585,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.245505,
+        "exit": 0.0,
+        "stopLoss": 1.2480049999999998,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "17042024"
+      },
+      {
+        "time": 1713301200,
+        "open": 1.24263,
+        "close": 1.245365,
+        "high": 1.24819,
+        "low": 1.241715,
+        "volume": 0.0,
+        "profit": 2.2934782608696573,
+        "maxProfit": 2.6884057971015727,
+        "entry": 1.24719,
+        "exit": 0.0,
+        "stopLoss": 1.24857,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 9,
+        "day": "18042024"
+      },
+      {
+        "time": 1713474000,
+        "open": 1.24364,
+        "close": 1.23697,
+        "high": 1.246825,
+        "low": 1.236695,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 2.6275862068969644,
+        "entry": 1.237215,
+        "exit": 0.0,
+        "stopLoss": 1.23649,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 1,
+        "day": "22042024"
+      },
+      {
+        "time": 1713733200,
+        "open": 1.23697,
+        "close": 1.23494,
+        "high": 1.23924,
+        "low": 1.229965,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.5634674922600051,
+        "entry": 1.23915,
+        "exit": 0.0,
+        "stopLoss": 1.240765,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 15,
+        "day": "23042024"
+      },
+      {
+        "time": 0,
+        "open": 1.24494,
+        "close": 1.246385,
+        "high": 1.247,
+        "low": 1.24227,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "25042024"
+      },
+      {
+        "time": 1713992400,
+        "open": 1.246385,
+        "close": 1.25143,
+        "high": 1.252775,
+        "low": 1.245285,
+        "volume": 0.0,
+        "profit": 5.0,
+        "maxProfit": 5.140468227425471,
+        "entry": 1.25272,
+        "exit": 0.0,
+        "stopLoss": 1.2542149999999999,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 11,
+        "day": "26042024"
+      },
+      {
+        "time": 1714078800,
+        "open": 1.25143,
+        "close": 1.24938,
+        "high": 1.254095,
+        "low": 1.244915,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 2.00366300366279,
+        "entry": 1.25361,
+        "exit": 0.0,
+        "stopLoss": 1.254975,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 8,
+        "day": "29042024"
+      },
+      {
+        "time": 0,
+        "open": 1.24938,
+        "close": 1.256285,
+        "high": 1.256955,
+        "low": 1.24811,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "30042024"
+      },
+      {
+        "time": 1714424400,
+        "open": 1.256285,
+        "close": 1.249175,
+        "high": 1.256445,
+        "low": 1.24902,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.249455,
+        "exit": 0.0,
+        "stopLoss": 1.24878,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 0,
+        "day": "01052024"
+      },
+      {
+        "time": 0,
+        "open": 1.249175,
+        "close": 1.2527,
+        "high": 1.25502,
+        "low": 1.246635,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "02052024"
+      },
+      {
+        "time": 0,
+        "open": 1.25341,
+        "close": 1.25469,
+        "high": 1.26349,
+        "low": 1.25253,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "06052024"
+      },
+      {
+        "time": 1714942800,
+        "open": 1.25469,
+        "close": 1.25621,
+        "high": 1.259455,
+        "low": 1.253845,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.25464,
+        "exit": 0.0,
+        "stopLoss": 1.25346,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 9,
+        "day": "07052024"
+      },
+      {
+        "time": 1715115600,
+        "open": 1.25088,
+        "close": 1.249775,
+        "high": 1.25173,
+        "low": 1.24678,
+        "volume": 0.0,
+        "profit": 2.093439363817234,
+        "maxProfit": 2.218687872763591,
+        "entry": 1.247005,
+        "exit": 0.0,
+        "stopLoss": 1.24449,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 14,
+        "day": "09052024"
+      },
+      {
+        "time": 0,
+        "open": 1.25239,
+        "close": 1.252585,
+        "high": 1.25413,
+        "low": 1.25027,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "13052024"
+      },
+      {
+        "time": 1715547600,
+        "open": 1.252585,
+        "close": 1.25592,
+        "high": 1.256885,
+        "low": 1.25172,
+        "volume": 0.0,
+        "profit": 3.0465686274513484,
+        "maxProfit": 3.0955882352944846,
+        "entry": 1.252865,
+        "exit": 0.0,
+        "stopLoss": 1.250825,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 11,
+        "day": "14052024"
+      },
+      {
+        "time": 0,
+        "open": 1.25592,
+        "close": 1.2592,
+        "high": 1.2593,
+        "low": 1.250945,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "15052024"
+      },
+      {
+        "time": 1715720400,
+        "open": 1.2592,
+        "close": 1.268535,
+        "high": 1.26868,
+        "low": 1.258365,
+        "volume": 0.0,
+        "profit": 0.561038961039021,
+        "maxProfit": 1.9766233766234007,
+        "entry": 1.26827,
+        "exit": 0.0,
+        "stopLoss": 1.270195,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 8,
+        "day": "16052024"
+      },
+      {
+        "time": 0,
+        "open": 1.268535,
+        "close": 1.26696,
+        "high": 1.270075,
+        "low": 1.264345,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "17052024"
+      },
+      {
+        "time": 1715893200,
+        "open": 1.26696,
+        "close": 1.27016,
+        "high": 1.27119,
+        "low": 1.264495,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.9351851851853922,
+        "entry": 1.270775,
+        "exit": 0.0,
+        "stopLoss": 1.271315,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 17,
+        "day": "20052024"
+      },
+      {
+        "time": 1716152400,
+        "open": 1.27016,
+        "close": 1.270625,
+        "high": 1.27256,
+        "low": 1.26894,
+        "volume": 0.0,
+        "profit": -0.11730769230773434,
+        "maxProfit": 0.5634615384615322,
+        "entry": 1.27113,
+        "exit": 0.0,
+        "stopLoss": 1.2685300000000002,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 16,
+        "day": "21052024"
+      },
+      {
+        "time": 1716238800,
+        "open": 1.270625,
+        "close": 1.270945,
+        "high": 1.272715,
+        "low": 1.26865,
+        "volume": 0.0,
+        "profit": 0.08375634517768414,
+        "maxProfit": 0.5545685279188057,
+        "entry": 1.27233,
+        "exit": 0.0,
+        "stopLoss": 1.2762699999999998,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 13,
+        "day": "22052024"
+      },
+      {
+        "time": 0,
+        "open": 1.270945,
+        "close": 1.271685,
+        "high": 1.27615,
+        "low": 1.270025,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "23052024"
+      },
+      {
+        "time": 1716411600,
+        "open": 1.271685,
+        "close": 1.26988,
+        "high": 1.27467,
+        "low": 1.268545,
+        "volume": 0.0,
+        "profit": 2.179220779220751,
+        "maxProfit": 2.8831168831168688,
+        "entry": 1.26943,
+        "exit": 0.0,
+        "stopLoss": 1.267505,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 9,
+        "day": "24052024"
+      },
+      {
+        "time": 0,
+        "open": 1.26988,
+        "close": 1.273745,
+        "high": 1.2751,
+        "low": 1.267625,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "27052024"
+      },
+      {
+        "time": 1716930000,
+        "open": 1.27617,
+        "close": 1.270045,
+        "high": 1.277185,
+        "low": 1.269915,
+        "volume": 0.0,
+        "profit": 0.7933450087566433,
+        "maxProfit": 1.3204903677759705,
+        "entry": 1.27083,
+        "exit": 0.0,
+        "stopLoss": 1.267975,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "30052024"
+      },
+      {
+        "time": 1717016400,
+        "open": 1.270045,
+        "close": 1.273215,
+        "high": 1.27472,
+        "low": 1.268095,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.7669902912624862,
+        "entry": 1.27467,
+        "exit": 0.0,
+        "stopLoss": 1.2751849999999998,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 15,
+        "day": "31052024"
+      },
+      {
+        "time": 1717102800,
+        "open": 1.273215,
+        "close": 1.2742,
+        "high": 1.276625,
+        "low": 1.270025,
+        "volume": 0.0,
+        "profit": 5.0,
+        "maxProfit": 8.789699570816628,
+        "entry": 1.270465,
+        "exit": 0.0,
+        "stopLoss": 1.2693,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 12,
+        "day": "03062024"
+      },
+      {
+        "time": 0,
+        "open": 1.280765,
+        "close": 1.277045,
+        "high": 1.28175,
+        "low": 1.274305,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "05062024"
+      },
+      {
+        "time": 1717621200,
+        "open": 1.278705,
+        "close": 1.279055,
+        "high": 1.28092,
+        "low": 1.27627,
+        "volume": 0.0,
+        "profit": 0.1580493537015331,
+        "maxProfit": 0.24148061104583243,
+        "entry": 1.27379,
+        "exit": 0.0,
+        "stopLoss": 1.2823,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 15,
+        "day": "07062024"
+      },
+      {
+        "time": 1718053200,
+        "open": 1.273065,
+        "close": 1.274015,
+        "high": 1.27518,
+        "low": 1.270595,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.275055,
+        "exit": 0.0,
+        "stopLoss": 1.2754299999999998,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "12062024"
+      },
+      {
+        "time": 0,
+        "open": 1.274015,
+        "close": 1.279825,
+        "high": 1.28605,
+        "low": 1.2733,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "13062024"
+      },
+      {
+        "time": 0,
+        "open": 1.279825,
+        "close": 1.27622,
+        "high": 1.280755,
+        "low": 1.273815,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "14062024"
+      },
+      {
+        "time": 0,
+        "open": 1.27622,
+        "close": 1.26841,
+        "high": 1.27636,
+        "low": 1.26569,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "17062024"
+      },
+      {
+        "time": 1718658000,
+        "open": 1.270475,
+        "close": 1.27086,
+        "high": 1.2721,
+        "low": 1.266885,
+        "volume": 0.0,
+        "profit": -0.09133489461360535,
+        "maxProfit": 0.2131147540983572,
+        "entry": 1.271995,
+        "exit": 0.0,
+        "stopLoss": 1.27413,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 15,
+        "day": "19062024"
+      },
+      {
+        "time": 1718744400,
+        "open": 1.27086,
+        "close": 1.27204,
+        "high": 1.27401,
+        "low": 1.27003,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.023904382470198934,
+        "entry": 1.27063,
+        "exit": 0.0,
+        "stopLoss": 1.2693750000000001,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 12,
+        "day": "20062024"
+      },
+      {
+        "time": 0,
+        "open": 1.27204,
+        "close": 1.265715,
+        "high": 1.27245,
+        "low": 1.26548,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "21062024"
+      },
+      {
+        "time": 0,
+        "open": 1.265715,
+        "close": 1.26463,
+        "high": 1.267485,
+        "low": 1.262225,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "24062024"
+      },
+      {
+        "time": 1719176400,
+        "open": 1.26463,
+        "close": 1.26848,
+        "high": 1.269815,
+        "low": 1.26326,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 1.255172413793457,
+        "entry": 1.26932,
+        "exit": 0.0,
+        "stopLoss": 1.2700449999999999,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 8,
+        "day": "25062024"
+      },
+      {
+        "time": 1719262800,
+        "open": 1.26848,
+        "close": 1.2686,
+        "high": 1.27026,
+        "low": 1.26704,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.0,
+        "entry": 1.26709,
+        "exit": 0.0,
+        "stopLoss": 1.26662,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 10,
+        "day": "26062024"
+      },
+      {
+        "time": 0,
+        "open": 1.262125,
+        "close": 1.26391,
+        "high": 1.26708,
+        "low": 1.261305,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "28062024"
+      },
+      {
+        "time": 0,
+        "open": 1.268525,
+        "close": 1.274145,
+        "high": 1.27773,
+        "low": 1.26778,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "04072024"
+      },
+      {
+        "time": 1720386000,
+        "open": 1.28136,
+        "close": 1.280675,
+        "high": 1.284575,
+        "low": 1.27935,
+        "volume": 0.0,
+        "profit": -1.0,
+        "maxProfit": 0.6170212765960958,
+        "entry": 1.27968,
+        "exit": 0.0,
+        "stopLoss": 1.2789750000000002,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 17,
+        "day": "09072024"
+      },
+      {
+        "time": 0,
+        "open": 1.280675,
+        "close": 1.278625,
+        "high": 1.28252,
+        "low": 1.2778,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "10072024"
+      },
+      {
+        "time": 0,
+        "open": 1.278625,
+        "close": 1.284825,
+        "high": 1.284895,
+        "low": 1.278395,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "11072024"
+      },
+      {
+        "time": 0,
+        "open": 1.284825,
+        "close": 1.29148,
+        "high": 1.29494,
+        "low": 1.28478,
+        "volume": 0.0,
+        "profit": 0.0,
+        "maxProfit": 0.0,
+        "entry": 0.0,
+        "exit": 0.0,
+        "stopLoss": 0.0,
+        "tradeStatus": "NO_TRADE",
+        "remark": "Overriding status to 'No Trade' because entry index not in the range",
+        "entryIndex": 40,
+        "day": "12072024"
+      }
+    ],
+    "ignoredTrades": []
+  },
+  {
+    "algoConfig": {
+      "basePath": "/Users/kmbl327929/IdeaProjects/personal/Data/atr/",
+      "spread": 1.2E-4,
+      "thresholdProfit": 5.0,
+      "lastDays": 90,
+      "hourlySuffix": "hour_day.json",
+      "dailySuffix": "one_day.json",
+      "token": "GBPUSD",
+      "resultSuffix": "result.json",
+      "lowerBound": 2,
+      "upperBound": 7
     },
     "strategy": "EXECUTE_FIRST_STRATEGY",
     "profit": -5.771721500283036,
@@ -34,6 +1576,7 @@
         "exit": 0.0,
         "stopLoss": 1.2729000000000001,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 5,
         "day": "15032024"
       },
@@ -50,6 +1593,7 @@
         "exit": 0.0,
         "stopLoss": 1.2804749999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "21032024"
       },
@@ -66,6 +1610,7 @@
         "exit": 0.0,
         "stopLoss": 1.253835,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "02042024"
       },
@@ -82,6 +1627,7 @@
         "exit": 0.0,
         "stopLoss": 1.25096,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 18,
         "day": "11042024"
       },
@@ -98,6 +1644,7 @@
         "exit": 0.0,
         "stopLoss": 1.24857,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "18042024"
       },
@@ -114,6 +1661,7 @@
         "exit": 0.0,
         "stopLoss": 1.2542149999999999,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 11,
         "day": "26042024"
       },
@@ -130,6 +1678,7 @@
         "exit": 0.0,
         "stopLoss": 1.24449,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 14,
         "day": "09052024"
       },
@@ -146,6 +1695,7 @@
         "exit": 0.0,
         "stopLoss": 1.250825,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 11,
         "day": "14052024"
       },
@@ -162,6 +1712,7 @@
         "exit": 0.0,
         "stopLoss": 1.270195,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 8,
         "day": "16052024"
       },
@@ -178,6 +1729,7 @@
         "exit": 0.0,
         "stopLoss": 1.2762699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 13,
         "day": "22052024"
       },
@@ -194,6 +1746,7 @@
         "exit": 0.0,
         "stopLoss": 1.267505,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "24052024"
       },
@@ -210,6 +1763,7 @@
         "exit": 0.0,
         "stopLoss": 1.267975,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "30052024"
       },
@@ -226,6 +1780,7 @@
         "exit": 0.0,
         "stopLoss": 1.2693,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 12,
         "day": "03062024"
       },
@@ -242,6 +1797,7 @@
         "exit": 0.0,
         "stopLoss": 1.2818699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "04062024"
       },
@@ -258,6 +1814,7 @@
         "exit": 0.0,
         "stopLoss": 1.2823,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 15,
         "day": "07062024"
       },
@@ -274,6 +1831,7 @@
         "exit": 0.0,
         "stopLoss": 1.261185,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "27062024"
       }
@@ -292,6 +1850,7 @@
         "exit": 0.0,
         "stopLoss": 1.2775,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 13,
         "day": "12032024"
       },
@@ -308,6 +1867,7 @@
         "exit": 0.0,
         "stopLoss": 1.281815,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 11,
         "day": "14032024"
       },
@@ -324,6 +1884,7 @@
         "exit": 0.0,
         "stopLoss": 1.272115,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 18,
         "day": "18032024"
       },
@@ -340,6 +1901,7 @@
         "exit": 0.0,
         "stopLoss": 1.2712750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "19032024"
       },
@@ -356,6 +1918,7 @@
         "exit": 0.0,
         "stopLoss": 1.266025,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "26032024"
       },
@@ -372,6 +1935,7 @@
         "exit": 0.0,
         "stopLoss": 1.2607650000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "27032024"
       },
@@ -388,6 +1952,7 @@
         "exit": 0.0,
         "stopLoss": 1.2602250000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 11,
         "day": "28032024"
       },
@@ -404,6 +1969,7 @@
         "exit": 0.0,
         "stopLoss": 1.2607750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 13,
         "day": "01042024"
       },
@@ -420,6 +1986,7 @@
         "exit": 0.0,
         "stopLoss": 1.25826,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 1,
         "day": "03042024"
       },
@@ -436,6 +2003,7 @@
         "exit": 0.0,
         "stopLoss": 1.2657749999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "04042024"
       },
@@ -452,6 +2020,7 @@
         "exit": 0.0,
         "stopLoss": 1.26132,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 11,
         "day": "05042024"
       },
@@ -468,6 +2037,7 @@
         "exit": 0.0,
         "stopLoss": 1.26511,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 16,
         "day": "08042024"
       },
@@ -484,6 +2054,7 @@
         "exit": 0.0,
         "stopLoss": 1.26657,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 9,
         "day": "09042024"
       },
@@ -500,6 +2071,7 @@
         "exit": 0.0,
         "stopLoss": 1.250455,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "12042024"
       },
@@ -516,6 +2088,7 @@
         "exit": 0.0,
         "stopLoss": 1.24195,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "16042024"
       },
@@ -532,6 +2105,7 @@
         "exit": 0.0,
         "stopLoss": 1.2480049999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "17042024"
       },
@@ -548,6 +2122,7 @@
         "exit": 0.0,
         "stopLoss": 1.24309,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "19042024"
       },
@@ -564,6 +2139,7 @@
         "exit": 0.0,
         "stopLoss": 1.23649,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 1,
         "day": "22042024"
       },
@@ -580,6 +2156,7 @@
         "exit": 0.0,
         "stopLoss": 1.240765,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "23042024"
       },
@@ -596,6 +2173,7 @@
         "exit": 0.0,
         "stopLoss": 1.2466249999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "24042024"
       },
@@ -612,6 +2190,7 @@
         "exit": 0.0,
         "stopLoss": 1.254975,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "29042024"
       },
@@ -628,6 +2207,7 @@
         "exit": 0.0,
         "stopLoss": 1.24878,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 0,
         "day": "01052024"
       },
@@ -644,6 +2224,7 @@
         "exit": 0.0,
         "stopLoss": 1.254665,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 3,
         "day": "03052024"
       },
@@ -660,6 +2241,7 @@
         "exit": 0.0,
         "stopLoss": 1.25346,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 9,
         "day": "07052024"
       },
@@ -676,6 +2258,7 @@
         "exit": 0.0,
         "stopLoss": 1.24974,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "08052024"
       },
@@ -692,6 +2275,7 @@
         "exit": 0.0,
         "stopLoss": 1.25311,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "10052024"
       },
@@ -708,6 +2292,7 @@
         "exit": 0.0,
         "stopLoss": 1.271315,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 17,
         "day": "20052024"
       },
@@ -724,6 +2309,7 @@
         "exit": 0.0,
         "stopLoss": 1.2685300000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 16,
         "day": "21052024"
       },
@@ -740,6 +2326,7 @@
         "exit": 0.0,
         "stopLoss": 1.2781699999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "28052024"
       },
@@ -756,6 +2343,7 @@
         "exit": 0.0,
         "stopLoss": 1.2750650000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "29052024"
       },
@@ -772,6 +2360,7 @@
         "exit": 0.0,
         "stopLoss": 1.2751849999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "31052024"
       },
@@ -788,6 +2377,7 @@
         "exit": 0.0,
         "stopLoss": 1.28104,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "06062024"
       },
@@ -804,6 +2394,7 @@
         "exit": 0.0,
         "stopLoss": 1.27095,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "10062024"
       },
@@ -820,6 +2411,7 @@
         "exit": 0.0,
         "stopLoss": 1.2740399999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "11062024"
       },
@@ -836,6 +2428,7 @@
         "exit": 0.0,
         "stopLoss": 1.2754299999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "12062024"
       },
@@ -852,6 +2445,7 @@
         "exit": 0.0,
         "stopLoss": 1.27165,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "18062024"
       },
@@ -868,6 +2462,7 @@
         "exit": 0.0,
         "stopLoss": 1.27413,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "19062024"
       },
@@ -884,6 +2479,7 @@
         "exit": 0.0,
         "stopLoss": 1.2693750000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 12,
         "day": "20062024"
       },
@@ -900,6 +2496,7 @@
         "exit": 0.0,
         "stopLoss": 1.2700449999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "25062024"
       },
@@ -916,6 +2513,7 @@
         "exit": 0.0,
         "stopLoss": 1.26662,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "26062024"
       },
@@ -932,6 +2530,7 @@
         "exit": 0.0,
         "stopLoss": 1.266735,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "01072024"
       },
@@ -948,6 +2547,7 @@
         "exit": 0.0,
         "stopLoss": 1.2631000000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "02072024"
       },
@@ -964,6 +2564,7 @@
         "exit": 0.0,
         "stopLoss": 1.269285,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "03072024"
       },
@@ -980,6 +2581,7 @@
         "exit": 0.0,
         "stopLoss": 1.276975,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "05072024"
       },
@@ -996,6 +2598,7 @@
         "exit": 0.0,
         "stopLoss": 1.2820099999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "08072024"
       },
@@ -1012,6 +2615,7 @@
         "exit": 0.0,
         "stopLoss": 1.2789750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 17,
         "day": "09072024"
       }
@@ -1030,6 +2634,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13032024"
       },
@@ -1046,6 +2651,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "20032024"
       },
@@ -1062,6 +2668,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "22032024"
       },
@@ -1078,6 +2685,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25032024"
       },
@@ -1094,6 +2702,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "29032024"
       },
@@ -1110,6 +2719,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10042024"
       },
@@ -1126,6 +2736,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15042024"
       },
@@ -1142,6 +2753,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25042024"
       },
@@ -1158,6 +2770,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "30042024"
       },
@@ -1174,6 +2787,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "02052024"
       },
@@ -1190,6 +2804,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "06052024"
       },
@@ -1206,6 +2821,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13052024"
       },
@@ -1222,6 +2838,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15052024"
       },
@@ -1238,6 +2855,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17052024"
       },
@@ -1254,6 +2872,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "23052024"
       },
@@ -1270,6 +2889,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "27052024"
       },
@@ -1286,6 +2906,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "05062024"
       },
@@ -1302,6 +2923,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13062024"
       },
@@ -1318,6 +2940,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "14062024"
       },
@@ -1334,6 +2957,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17062024"
       },
@@ -1350,6 +2974,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "21062024"
       },
@@ -1366,6 +2991,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "24062024"
       },
@@ -1382,6 +3008,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "28062024"
       },
@@ -1398,6 +3025,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "04072024"
       },
@@ -1414,6 +3042,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10072024"
       },
@@ -1430,6 +3059,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "11072024"
       },
@@ -1446,6 +3076,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12072024"
       }
@@ -1455,7 +3086,7 @@
   {
     "algoConfig": {
       "basePath": "/Users/kmbl327929/IdeaProjects/personal/Data/atr/",
-      "pips": 1.2E-4,
+      "spread": 1.2E-4,
       "thresholdProfit": 5.0,
       "lastDays": 90,
       "hourlySuffix": "hour_day.json",
@@ -1463,7 +3094,7 @@
       "token": "GBPUSD",
       "resultSuffix": "result.json",
       "lowerBound": 2,
-      "upperBound": 25
+      "upperBound": 7
     },
     "strategy": "EXECUTE_ANY_STRATEGY",
     "profit": -5.169193934072576,
@@ -1487,6 +3118,7 @@
         "exit": 0.0,
         "stopLoss": 1.2729000000000001,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 5,
         "day": "15032024"
       },
@@ -1503,6 +3135,7 @@
         "exit": 0.0,
         "stopLoss": 1.2804749999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "21032024"
       },
@@ -1519,6 +3152,7 @@
         "exit": 0.0,
         "stopLoss": 1.253835,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "02042024"
       },
@@ -1535,6 +3169,7 @@
         "exit": 0.0,
         "stopLoss": 1.25096,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 18,
         "day": "11042024"
       },
@@ -1551,6 +3186,7 @@
         "exit": 0.0,
         "stopLoss": 1.24857,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "18042024"
       },
@@ -1567,6 +3203,7 @@
         "exit": 0.0,
         "stopLoss": 1.2542149999999999,
         "tradeStatus": "SHORT_WIN_LONG_SL",
+        "remark": null,
         "entryIndex": 11,
         "day": "26042024"
       },
@@ -1583,6 +3220,7 @@
         "exit": 0.0,
         "stopLoss": 1.24449,
         "tradeStatus": "LONG_WIN_SHORT_SL",
+        "remark": null,
         "entryIndex": 14,
         "day": "09052024"
       },
@@ -1599,6 +3237,7 @@
         "exit": 0.0,
         "stopLoss": 1.250825,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 11,
         "day": "14052024"
       },
@@ -1615,6 +3254,7 @@
         "exit": 0.0,
         "stopLoss": 1.270195,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 8,
         "day": "16052024"
       },
@@ -1631,6 +3271,7 @@
         "exit": 0.0,
         "stopLoss": 1.272835,
         "tradeStatus": "SHORT_WIN_LONG_SL",
+        "remark": null,
         "entryIndex": 17,
         "day": "21052024"
       },
@@ -1647,6 +3288,7 @@
         "exit": 0.0,
         "stopLoss": 1.2762699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 13,
         "day": "22052024"
       },
@@ -1663,6 +3305,7 @@
         "exit": 0.0,
         "stopLoss": 1.267505,
         "tradeStatus": "LONG_WIN_SHORT_SL",
+        "remark": null,
         "entryIndex": 9,
         "day": "24052024"
       },
@@ -1679,6 +3322,7 @@
         "exit": 0.0,
         "stopLoss": 1.267975,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "30052024"
       },
@@ -1695,6 +3339,7 @@
         "exit": 0.0,
         "stopLoss": 1.2693,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 12,
         "day": "03062024"
       },
@@ -1711,6 +3356,7 @@
         "exit": 0.0,
         "stopLoss": 1.2818699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "04062024"
       },
@@ -1727,6 +3373,7 @@
         "exit": 0.0,
         "stopLoss": 1.2823,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 15,
         "day": "07062024"
       },
@@ -1743,6 +3390,7 @@
         "exit": 0.0,
         "stopLoss": 1.261185,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "27062024"
       }
@@ -1761,6 +3409,7 @@
         "exit": 0.0,
         "stopLoss": 1.2775,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 13,
         "day": "12032024"
       },
@@ -1777,6 +3426,7 @@
         "exit": 0.0,
         "stopLoss": 1.281815,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 11,
         "day": "14032024"
       },
@@ -1793,6 +3443,7 @@
         "exit": 0.0,
         "stopLoss": 1.272115,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 18,
         "day": "18032024"
       },
@@ -1809,6 +3460,7 @@
         "exit": 0.0,
         "stopLoss": 1.2712750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "19032024"
       },
@@ -1825,6 +3477,7 @@
         "exit": 0.0,
         "stopLoss": 1.266025,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "26032024"
       },
@@ -1841,6 +3494,7 @@
         "exit": 0.0,
         "stopLoss": 1.2607650000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "27032024"
       },
@@ -1857,6 +3511,7 @@
         "exit": 0.0,
         "stopLoss": 1.26439,
         "tradeStatus": "SHORT_WIN_LONG_SL",
+        "remark": null,
         "entryIndex": 15,
         "day": "28032024"
       },
@@ -1873,6 +3528,7 @@
         "exit": 0.0,
         "stopLoss": 1.2607750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 13,
         "day": "01042024"
       },
@@ -1889,6 +3545,7 @@
         "exit": 0.0,
         "stopLoss": 1.25826,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 1,
         "day": "03042024"
       },
@@ -1905,6 +3562,7 @@
         "exit": 0.0,
         "stopLoss": 1.2657749999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "04042024"
       },
@@ -1921,6 +3579,7 @@
         "exit": 0.0,
         "stopLoss": 1.26132,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 11,
         "day": "05042024"
       },
@@ -1937,6 +3596,7 @@
         "exit": 0.0,
         "stopLoss": 1.26511,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 16,
         "day": "08042024"
       },
@@ -1953,6 +3613,7 @@
         "exit": 0.0,
         "stopLoss": 1.26657,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 9,
         "day": "09042024"
       },
@@ -1969,6 +3630,7 @@
         "exit": 0.0,
         "stopLoss": 1.250455,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "12042024"
       },
@@ -1985,6 +3647,7 @@
         "exit": 0.0,
         "stopLoss": 1.24195,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "16042024"
       },
@@ -2001,6 +3664,7 @@
         "exit": 0.0,
         "stopLoss": 1.2480049999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "17042024"
       },
@@ -2017,6 +3681,7 @@
         "exit": 0.0,
         "stopLoss": 1.24309,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "19042024"
       },
@@ -2033,6 +3698,7 @@
         "exit": 0.0,
         "stopLoss": 1.23649,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 1,
         "day": "22042024"
       },
@@ -2049,6 +3715,7 @@
         "exit": 0.0,
         "stopLoss": 1.240765,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "23042024"
       },
@@ -2065,6 +3732,7 @@
         "exit": 0.0,
         "stopLoss": 1.2466249999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "24042024"
       },
@@ -2081,6 +3749,7 @@
         "exit": 0.0,
         "stopLoss": 1.254975,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "29042024"
       },
@@ -2097,6 +3766,7 @@
         "exit": 0.0,
         "stopLoss": 1.24878,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 0,
         "day": "01052024"
       },
@@ -2113,6 +3783,7 @@
         "exit": 0.0,
         "stopLoss": 1.254665,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 3,
         "day": "03052024"
       },
@@ -2129,6 +3800,7 @@
         "exit": 0.0,
         "stopLoss": 1.25346,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 9,
         "day": "07052024"
       },
@@ -2145,6 +3817,7 @@
         "exit": 0.0,
         "stopLoss": 1.24974,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "08052024"
       },
@@ -2161,6 +3834,7 @@
         "exit": 0.0,
         "stopLoss": 1.25311,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "10052024"
       },
@@ -2177,6 +3851,7 @@
         "exit": 0.0,
         "stopLoss": 1.271315,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 17,
         "day": "20052024"
       },
@@ -2193,6 +3868,7 @@
         "exit": 0.0,
         "stopLoss": 1.2781699999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "28052024"
       },
@@ -2209,6 +3885,7 @@
         "exit": 0.0,
         "stopLoss": 1.2750650000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "29052024"
       },
@@ -2225,6 +3902,7 @@
         "exit": 0.0,
         "stopLoss": 1.2751849999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "31052024"
       },
@@ -2241,6 +3919,7 @@
         "exit": 0.0,
         "stopLoss": 1.28104,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "06062024"
       },
@@ -2257,6 +3936,7 @@
         "exit": 0.0,
         "stopLoss": 1.27095,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "10062024"
       },
@@ -2273,6 +3953,7 @@
         "exit": 0.0,
         "stopLoss": 1.2740399999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 7,
         "day": "11062024"
       },
@@ -2289,6 +3970,7 @@
         "exit": 0.0,
         "stopLoss": 1.2754299999999998,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "12062024"
       },
@@ -2305,6 +3987,7 @@
         "exit": 0.0,
         "stopLoss": 1.27165,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "18062024"
       },
@@ -2321,6 +4004,7 @@
         "exit": 0.0,
         "stopLoss": 1.27413,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "19062024"
       },
@@ -2337,6 +4021,7 @@
         "exit": 0.0,
         "stopLoss": 1.2693750000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 12,
         "day": "20062024"
       },
@@ -2353,6 +4038,7 @@
         "exit": 0.0,
         "stopLoss": 1.2700449999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 8,
         "day": "25062024"
       },
@@ -2369,6 +4055,7 @@
         "exit": 0.0,
         "stopLoss": 1.26662,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 10,
         "day": "26062024"
       },
@@ -2385,6 +4072,7 @@
         "exit": 0.0,
         "stopLoss": 1.266735,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "01072024"
       },
@@ -2401,6 +4089,7 @@
         "exit": 0.0,
         "stopLoss": 1.2631000000000001,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "02072024"
       },
@@ -2417,6 +4106,7 @@
         "exit": 0.0,
         "stopLoss": 1.269285,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 2,
         "day": "03072024"
       },
@@ -2433,6 +4123,7 @@
         "exit": 0.0,
         "stopLoss": 1.276975,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 4,
         "day": "05072024"
       },
@@ -2449,6 +4140,7 @@
         "exit": 0.0,
         "stopLoss": 1.2820099999999999,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 6,
         "day": "08072024"
       },
@@ -2465,6 +4157,7 @@
         "exit": 0.0,
         "stopLoss": 1.2789750000000002,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 17,
         "day": "09072024"
       }
@@ -2483,6 +4176,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13032024"
       },
@@ -2499,6 +4193,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "20032024"
       },
@@ -2515,6 +4210,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "22032024"
       },
@@ -2531,6 +4227,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25032024"
       },
@@ -2547,6 +4244,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "29032024"
       },
@@ -2563,6 +4261,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10042024"
       },
@@ -2579,6 +4278,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15042024"
       },
@@ -2595,6 +4295,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25042024"
       },
@@ -2611,6 +4312,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "30042024"
       },
@@ -2627,6 +4329,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "02052024"
       },
@@ -2643,6 +4346,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "06052024"
       },
@@ -2659,6 +4363,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13052024"
       },
@@ -2675,6 +4380,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15052024"
       },
@@ -2691,6 +4397,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17052024"
       },
@@ -2707,6 +4414,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "23052024"
       },
@@ -2723,6 +4431,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "27052024"
       },
@@ -2739,6 +4448,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "05062024"
       },
@@ -2755,6 +4465,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13062024"
       },
@@ -2771,6 +4482,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "14062024"
       },
@@ -2787,6 +4499,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17062024"
       },
@@ -2803,6 +4516,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "21062024"
       },
@@ -2819,6 +4533,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "24062024"
       },
@@ -2835,6 +4550,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "28062024"
       },
@@ -2851,6 +4567,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "04072024"
       },
@@ -2867,6 +4584,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10072024"
       },
@@ -2883,6 +4601,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "11072024"
       },
@@ -2899,6 +4618,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12072024"
       }
@@ -2908,7 +4628,7 @@
   {
     "algoConfig": {
       "basePath": "/Users/kmbl327929/IdeaProjects/personal/Data/atr/",
-      "pips": 1.2E-4,
+      "spread": 1.2E-4,
       "thresholdProfit": 5.0,
       "lastDays": 90,
       "hourlySuffix": "hour_day.json",
@@ -2916,7 +4636,7 @@
       "token": "GBPUSD",
       "resultSuffix": "result.json",
       "lowerBound": 2,
-      "upperBound": 25
+      "upperBound": 7
     },
     "strategy": "DAY_CLOSE_STRATEGY",
     "profit": 37.8571917460105,
@@ -2940,6 +4660,7 @@
         "exit": 0.0,
         "stopLoss": 1.2729000000000001,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 5,
         "day": "15032024"
       },
@@ -2956,6 +4677,7 @@
         "exit": 0.0,
         "stopLoss": 1.2804749999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "21032024"
       },
@@ -2972,6 +4694,7 @@
         "exit": 0.0,
         "stopLoss": 1.253835,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "02042024"
       },
@@ -2988,6 +4711,7 @@
         "exit": 0.0,
         "stopLoss": 1.25096,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 18,
         "day": "11042024"
       },
@@ -3004,6 +4728,7 @@
         "exit": 0.0,
         "stopLoss": 1.24857,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "18042024"
       },
@@ -3020,6 +4745,7 @@
         "exit": 0.0,
         "stopLoss": 1.2542149999999999,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 11,
         "day": "26042024"
       },
@@ -3036,6 +4762,7 @@
         "exit": 0.0,
         "stopLoss": 1.24449,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 14,
         "day": "09052024"
       },
@@ -3052,6 +4779,7 @@
         "exit": 0.0,
         "stopLoss": 1.250825,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 11,
         "day": "14052024"
       },
@@ -3068,6 +4796,7 @@
         "exit": 0.0,
         "stopLoss": 1.270195,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 8,
         "day": "16052024"
       },
@@ -3084,6 +4813,7 @@
         "exit": 0.0,
         "stopLoss": 1.272835,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 17,
         "day": "21052024"
       },
@@ -3100,6 +4830,7 @@
         "exit": 0.0,
         "stopLoss": 1.2762699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 13,
         "day": "22052024"
       },
@@ -3116,6 +4847,7 @@
         "exit": 0.0,
         "stopLoss": 1.267505,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 9,
         "day": "24052024"
       },
@@ -3132,6 +4864,7 @@
         "exit": 0.0,
         "stopLoss": 1.267975,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 10,
         "day": "30052024"
       },
@@ -3148,6 +4881,7 @@
         "exit": 0.0,
         "stopLoss": 1.2693,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 12,
         "day": "03062024"
       },
@@ -3164,6 +4898,7 @@
         "exit": 0.0,
         "stopLoss": 1.2818699999999998,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "04062024"
       },
@@ -3180,6 +4915,7 @@
         "exit": 0.0,
         "stopLoss": 1.2823,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 15,
         "day": "07062024"
       },
@@ -3196,6 +4932,7 @@
         "exit": 0.0,
         "stopLoss": 1.261185,
         "tradeStatus": "PROFIT",
+        "remark": null,
         "entryIndex": 4,
         "day": "27062024"
       }
@@ -3214,6 +4951,7 @@
         "exit": 0.0,
         "stopLoss": 1.26439,
         "tradeStatus": "LOSS",
+        "remark": null,
         "entryIndex": 15,
         "day": "28032024"
       }
@@ -3232,6 +4970,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12032024"
       },
@@ -3248,6 +4987,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13032024"
       },
@@ -3264,6 +5004,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "14032024"
       },
@@ -3280,6 +5021,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "18032024"
       },
@@ -3296,6 +5038,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "19032024"
       },
@@ -3312,6 +5055,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "20032024"
       },
@@ -3328,6 +5072,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "22032024"
       },
@@ -3344,6 +5089,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25032024"
       },
@@ -3360,6 +5106,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "26032024"
       },
@@ -3376,6 +5123,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "27032024"
       },
@@ -3392,6 +5140,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "29032024"
       },
@@ -3408,6 +5157,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "01042024"
       },
@@ -3424,6 +5174,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "03042024"
       },
@@ -3440,6 +5191,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "04042024"
       },
@@ -3456,6 +5208,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "05042024"
       },
@@ -3472,6 +5225,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "08042024"
       },
@@ -3488,6 +5242,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "09042024"
       },
@@ -3504,6 +5259,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10042024"
       },
@@ -3520,6 +5276,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12042024"
       },
@@ -3536,6 +5293,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15042024"
       },
@@ -3552,6 +5310,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "16042024"
       },
@@ -3568,6 +5327,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17042024"
       },
@@ -3584,6 +5344,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "19042024"
       },
@@ -3600,6 +5361,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "22042024"
       },
@@ -3616,6 +5378,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "23042024"
       },
@@ -3632,6 +5395,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "24042024"
       },
@@ -3648,6 +5412,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25042024"
       },
@@ -3664,6 +5429,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "29042024"
       },
@@ -3680,6 +5446,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "30042024"
       },
@@ -3696,6 +5463,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "01052024"
       },
@@ -3712,6 +5480,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "02052024"
       },
@@ -3728,6 +5497,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "03052024"
       },
@@ -3744,6 +5514,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "06052024"
       },
@@ -3760,6 +5531,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "07052024"
       },
@@ -3776,6 +5548,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "08052024"
       },
@@ -3792,6 +5565,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10052024"
       },
@@ -3808,6 +5582,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13052024"
       },
@@ -3824,6 +5599,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "15052024"
       },
@@ -3840,6 +5616,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17052024"
       },
@@ -3856,6 +5633,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "20052024"
       },
@@ -3872,6 +5650,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "23052024"
       },
@@ -3888,6 +5667,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "27052024"
       },
@@ -3904,6 +5684,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "28052024"
       },
@@ -3920,6 +5701,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "29052024"
       },
@@ -3936,6 +5718,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "31052024"
       },
@@ -3952,6 +5735,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "05062024"
       },
@@ -3968,6 +5752,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "06062024"
       },
@@ -3984,6 +5769,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10062024"
       },
@@ -4000,6 +5786,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "11062024"
       },
@@ -4016,6 +5803,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12062024"
       },
@@ -4032,6 +5820,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "13062024"
       },
@@ -4048,6 +5837,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "14062024"
       },
@@ -4064,6 +5854,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "17062024"
       },
@@ -4080,6 +5871,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "18062024"
       },
@@ -4096,6 +5888,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "19062024"
       },
@@ -4112,6 +5905,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "20062024"
       },
@@ -4128,6 +5922,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "21062024"
       },
@@ -4144,6 +5939,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "24062024"
       },
@@ -4160,6 +5956,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "25062024"
       },
@@ -4176,6 +5973,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "26062024"
       },
@@ -4192,6 +5990,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "28062024"
       },
@@ -4208,6 +6007,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "01072024"
       },
@@ -4224,6 +6024,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "02072024"
       },
@@ -4240,6 +6041,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "03072024"
       },
@@ -4256,6 +6058,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "04072024"
       },
@@ -4272,6 +6075,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "05072024"
       },
@@ -4288,6 +6092,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "08072024"
       },
@@ -4304,6 +6109,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "09072024"
       },
@@ -4320,6 +6126,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "10072024"
       },
@@ -4336,6 +6143,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "11072024"
       },
@@ -4352,6 +6160,7 @@
         "exit": 0.0,
         "stopLoss": 0.0,
         "tradeStatus": "NO_TRADE",
+        "remark": null,
         "entryIndex": 40,
         "day": "12072024"
       }
