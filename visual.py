@@ -22,22 +22,22 @@ for coin in Forex:
 
     graph = 'nonProfitDays'
     graph1 = 'profitDays'
-    strategy = data[1]['strategy']
+    strategy = data[0]['strategy']
     Trade_days_profit = defaultdict(list)
     Trade_days_max_profit = defaultdict(list)
 
     #graph = 'nonProf
 
-    num_pd = len(data[1][graph1])
-    num_npd = len(data[1][graph])
+    num_pd = len(data[0][graph1])
+    num_npd = len(data[0][graph])
 
     for i in range(num_pd):
-        Trade_days_profit[data[1][graph1][i]['entryIndex']].append(data[1][graph1][i]['profit'])
-        Trade_days_max_profit[data[1][graph1][i]['entryIndex']].append(data[1][graph1][i]['maxProfit'])
+        Trade_days_profit[data[0][graph1][i]['entryIndex']].append(data[0][graph1][i]['profit'])
+        Trade_days_max_profit[data[0][graph1][i]['entryIndex']].append(data[0][graph1][i]['maxProfit'])
 
     for i in range(num_npd):
-        Trade_days_profit[data[1][graph][i]['entryIndex']].append(data[1][graph][i]['profit'])
-        Trade_days_max_profit[data[1][graph][i]['entryIndex']].append(data[1][graph][i]['maxProfit'])
+        Trade_days_profit[data[0][graph][i]['entryIndex']].append(data[0][graph][i]['profit'])
+        Trade_days_max_profit[data[0][graph][i]['entryIndex']].append(data[0][graph][i]['maxProfit'])
 
     profit  = {k: sum(v) for k, v in Trade_days_profit.items()}
     max_profit = {k: sum(v) for k, v in Trade_days_max_profit.items()}
